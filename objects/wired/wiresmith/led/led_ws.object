@@ -1,0 +1,38 @@
+{
+  "objectName" : "led_ws",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "<An output light. Shows whether something is on or off.>",
+  "shortdescription" : "Light Emitting Diode",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "led_ws.png:default.1",
+  "orientations" : [
+    {
+      "image" : "led_ws.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "led_ws.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inboundNodes" : [ [0, 0] ],
+  "outboundNodes" : [ ],
+
+  "gates" : 1,
+  "truthtable" : [ false, true ]
+}

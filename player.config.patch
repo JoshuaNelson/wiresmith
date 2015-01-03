@@ -7,6 +7,16 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "dlatch_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "led_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "not_ws" }
   },
   {
@@ -24,4 +34,4 @@
     "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "xor_ws" }
   }
-  ]
+]
