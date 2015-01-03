@@ -1,0 +1,37 @@
+{
+  "objectName" : "timer_ws",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "<A timer. For when you need time to get away.>",
+  "shortdescription" : "Timer (Half Second)",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "timer_ws.png:default.1",
+  "orientations" : [
+    {
+      "image" : "timer_ws.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/timer.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "timer_ws.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inboundNodes" : [ [-1, 0] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "interval" : 30
+}
