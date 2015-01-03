@@ -12,6 +12,16 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "or_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "timer_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "xor_ws" }
   }
   ]

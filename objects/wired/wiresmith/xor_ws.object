@@ -1,0 +1,40 @@
+{
+  "objectName" : "xor_ws",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "<An /'X Or'/ switch. Requires one input to be on, and one off.>",
+  "shortdescription" : "X Or Switch",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "xor_ws.png:default.1",
+  "orientations" : [
+    {
+      "image" : "xor_ws.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "xor_ws.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inboundNodes" : [ [-1, -1], [-1, 0] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "gates" : 2,
+  "truthtable" : [ [ false, true ], [ true, false ] ]
+}

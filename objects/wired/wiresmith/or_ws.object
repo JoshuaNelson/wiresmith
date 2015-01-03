@@ -1,19 +1,19 @@
 {
-  "objectName" : "and_ws",
+  "objectName" : "or_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<An /'And'/ switch. Requires all inputs to be /'on'/ to work.>",
-  "shortdescription" : "And Switch",
+  "description" : "<An /'Or'/ switch. Allows you to have multiple individual inputs.>",
+  "shortdescription" : "Or Switch",
   "race" : "human",
 
   "category" : "wire",
   "price" : 300,
 
-  "inventoryIcon" : "and_ws.png:default.1",
+  "inventoryIcon" : "or_ws.png:default.1",
   "orientations" : [
     {
-      "image" : "and_ws.png:<color>.off",
-      "imagePosition" : [-8, -8],
+      "image" : "or_ws.png:<color>.off",
+      "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
@@ -28,13 +28,13 @@
   "animation" : "/objects/wired/logic/logic.animation",
 
   "animationParts" : {
-    "switch" : "and_ws.png"
+    "switch" : "or_ws.png"
   },
-  "animationPosition" : [-8, -8],
+  "animationPosition" : [-8, 0],
 
   "inboundNodes" : [ [-1, -1], [-1, 0] ],
-  "outboundNodes" : [ [0, -1] ],
+  "outboundNodes" : [ [0, 0] ],
 
   "gates" : 2,
-  "truthtable" : [ [ false, false ], [ false, true ] ]
+  "truthtable" : [ [ false, true ], [ true, true ] ]
 }
