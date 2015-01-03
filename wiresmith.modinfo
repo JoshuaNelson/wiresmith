@@ -1,0 +1,11 @@
+{
+  "name" : "wiresmith",
+  "version" : "Beta v. Upbeat Giraffe - Update 1",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata": {
+    "author" : "Joshua Nelson",
+    "description" : "Adding more wiring options and content.",
+    "support_url" : "daftmedic@nelsn.net"
+  }
+}
