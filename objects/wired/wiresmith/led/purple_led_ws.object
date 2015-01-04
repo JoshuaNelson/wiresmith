@@ -1,0 +1,39 @@
+{
+  "objectName" : "purple_led_ws",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "<A purple light emitting diode.>",
+  "shortdescription" : "Purple LED",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "purple_led_ws.png:default.1",
+  "orientations" : [
+    {
+      "image" : "purple_led_ws.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/wiresmith/led/led_ws.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "purple_led_ws.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inboundNodes" : [ [0, 0] ],
+  "outboundNodes" : [ ],
+
+  "gates" : 1,
+  "truthtable" : [ false, true ],
+  "lightColor" : [100, 0, 100]
+}

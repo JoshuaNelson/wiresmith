@@ -12,11 +12,6 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "led_ws" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "not_ws" }
   },
   {
@@ -33,5 +28,30 @@
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "xor_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "blue_led_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "red_led_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "orange_led_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "purple_led_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "green_led_ws" }
   }
 ]

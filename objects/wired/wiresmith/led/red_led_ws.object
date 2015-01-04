@@ -1,18 +1,18 @@
 {
-  "objectName" : "led_ws",
+  "objectName" : "red_led_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<An output light. Shows whether something is on or off.>",
-  "shortdescription" : "Light Emitting Diode",
+  "description" : "<A red light emitting diode.>",
+  "shortdescription" : "Red LED",
   "race" : "human",
 
   "category" : "wire",
   "price" : 300,
 
-  "inventoryIcon" : "led_ws.png:default.1",
+  "inventoryIcon" : "red_led_ws.png:default.1",
   "orientations" : [
     {
-      "image" : "led_ws.png:<color>.off",
+      "image" : "red_led_ws.png:<color>.off",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
@@ -20,13 +20,13 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scripts" : [ "/objects/wired/wiresmith/led/led_ws.lua" ],
   "scriptDelta" : 1,
 
   "animation" : "/objects/wired/logic/logic.animation",
 
   "animationParts" : {
-    "switch" : "led_ws.png"
+    "switch" : "red_led_ws.png"
   },
   "animationPosition" : [0, 0],
 
@@ -34,5 +34,6 @@
   "outboundNodes" : [ ],
 
   "gates" : 1,
-  "truthtable" : [ false, true ]
+  "truthtable" : [ false, true ],
+  "lightColor" : [100, 0, 0]
 }
