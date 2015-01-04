@@ -2,8 +2,8 @@
   "objectName" : "xor_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<An /'X Or'/ switch. Requires one input to be on, and one off.>",
-  "shortdescription" : "X Or Switch",
+  "description" : "<An /'XOR'/ gate. Requires one input to be on, and one off.>",
+  "shortdescription" : "XOR Gate",
   "race" : "human",
 
   "category" : "wire",

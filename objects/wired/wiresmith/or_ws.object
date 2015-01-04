@@ -2,8 +2,8 @@
   "objectName" : "or_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<An /'Or'/ switch. Allows you to have multiple individual inputs.>",
-  "shortdescription" : "Or Switch",
+  "description" : "<An /'Or'/ gate. Allows you to have multiple individual inputs.>",
+  "shortdescription" : "OR Gate",
   "race" : "human",
 
   "category" : "wire",

@@ -2,8 +2,8 @@
   "objectName" : "and_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<An /'And'/ switch. Requires all inputs to be /'on'/ to work.>",
-  "shortdescription" : "And Switch",
+  "description" : "<An /'And'/ gate. Requires all inputs to be /'on'/ to work.>",
+  "shortdescription" : "AND Gate",
   "race" : "human",
 
   "category" : "wire",

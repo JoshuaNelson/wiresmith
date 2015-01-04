@@ -2,8 +2,8 @@
   "objectName" : "not_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<A /'Not'/ switch. Inverts the input on the circuit.>",
-  "shortdescription" : "Not Switch",
+  "description" : "<A /'Not'/ gate. Inverts the input on the circuit.>",
+  "shortdescription" : "NOT Gate",
   "race" : "human",
 
   "category" : "wire",
