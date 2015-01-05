@@ -13,7 +13,7 @@
   "orientations" : [
     {
       "image" : "red_led_ws.png:<color>.off",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [0, 2],
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
@@ -28,12 +28,12 @@
   "animationParts" : {
     "switch" : "red_led_ws.png"
   },
-  "animationPosition" : [0, 0],
+  "animationPosition" : [0, 2],
 
   "inboundNodes" : [ [0, 0] ],
   "outboundNodes" : [ ],
 
   "gates" : 1,
   "truthtable" : [ false, true ],
-  "lightColor" : [100, 0, 0]
+  "lightColor" : [75, 0, 0]
 }

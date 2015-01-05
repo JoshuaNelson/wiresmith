@@ -1,0 +1,40 @@
+{
+  "objectName" : "nor_ws",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "<An /'NOR'/ gate. Check if only one input is active.>",
+  "shortdescription" : "NOR Gate",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "nor_ws.png:default.1",
+  "orientations" : [
+    {
+      "image" : "nor_ws.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "nor_ws.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inboundNodes" : [ [-1, -1], [-1, 0] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "gates" : 2,
+  "truthtable" : [ [ true, false ], [ false, false ] ]
+}
