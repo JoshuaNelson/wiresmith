@@ -1,18 +1,18 @@
 {
-  "objectName" : "nor_ws",
+  "objectName" : "buffer_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<An /'NOR'/ gate. Check if neither input is active. Wait... did they just rebrand the NOT gate?>",
-  "shortdescription" : "NOR Gate",
+  "description" : "<A /'Buffer'/. Protect your circuits.. or something!>",
+  "shortdescription" : "Buffer",
   "race" : "human",
 
   "category" : "wire",
   "price" : 300,
 
-  "inventoryIcon" : "nor_ws.png:default.1",
+  "inventoryIcon" : "buffer_ws.png:default.1",
   "orientations" : [
     {
-      "image" : "nor_ws.png:<color>.off",
+      "image" : "buffer_ws.png:<color>.off",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,
@@ -28,13 +28,13 @@
   "animation" : "/objects/wired/logic/logic.animation",
 
   "animationParts" : {
-    "switch" : "nor_ws.png"
+    "switch" : "buffer_ws.png"
   },
   "animationPosition" : [-8, 0],
 
-  "inboundNodes" : [ [-1, -1], [-1, 0] ],
+  "inboundNodes" : [ [-1, 0] ],
   "outboundNodes" : [ [0, 0] ],
 
-  "gates" : 2,
-  "truthtable" : [ [ true, false ], [ false, false ] ]
+  "gates" : 1,
+  "truthtable" : [ false, true ]
 }

@@ -1,18 +1,18 @@
 {
-  "objectName" : "nor_ws",
+  "objectName" : "imply_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<An /'NOR'/ gate. Check if neither input is active. Wait... did they just rebrand the NOT gate?>",
-  "shortdescription" : "NOR Gate",
+  "description" : "<An /'IMPLY'/ gate. A imply B. Is always /'on'/ unless A and not B.>",
+  "shortdescription" : "IMPLY Gate",
   "race" : "human",
 
   "category" : "wire",
   "price" : 300,
 
-  "inventoryIcon" : "nor_ws.png:default.1",
+  "inventoryIcon" : "or_ws.png:default.1",
   "orientations" : [
     {
-      "image" : "nor_ws.png:<color>.off",
+      "image" : "or_ws.png:<color>.off",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,
@@ -28,7 +28,7 @@
   "animation" : "/objects/wired/logic/logic.animation",
 
   "animationParts" : {
-    "switch" : "nor_ws.png"
+    "switch" : "or_ws.png"
   },
   "animationPosition" : [-8, 0],
 
@@ -36,5 +36,5 @@
   "outboundNodes" : [ [0, 0] ],
 
   "gates" : 2,
-  "truthtable" : [ [ true, false ], [ false, false ] ]
+  "truthtable" : [ [ true, true ], [ false, true ] ]
 }

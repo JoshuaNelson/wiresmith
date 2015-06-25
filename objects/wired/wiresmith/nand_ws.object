@@ -2,7 +2,7 @@
   "objectName" : "nand_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<A /'Not And'/ gate. Requires all inputs to be /'off'/ to work.>",
+  "description" : "<A /'NAND'/ gate. Requires all inputs to be /'off'/ to work.>",
   "shortdescription" : "NAND Gate",
   "race" : "human",
 

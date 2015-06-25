@@ -1,5 +1,5 @@
 {
-  "objectName" : "flow_pipe",
+"objectName" : "flow_pipe",
   "printable" : false,
   "rarity" : "Common",
   "description" : "I think I hear something coming!",
@@ -20,7 +20,7 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/pipesmith/pipe.lua" ],
+  "scripts" : [ "/objects/wired/pipesmith/flow_pipe.lua" ],
   "scriptDelta" : 10,
 
   "animation" : "/objects/wired/drain/drain.animation",
@@ -32,6 +32,6 @@
 
   "inboundNodes" : [ [-1, 0] , [0, 1] ],
   "outboundNodes" : [ [0, 0] ],
-  
+
   "interval" : 10
 }

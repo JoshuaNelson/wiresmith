@@ -27,7 +27,7 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "opamp_ws" }
+    "value" : { "item" : "buffer_ws" }
   },
   {
     "op" : "add",
@@ -48,6 +48,16 @@
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "xor_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "imply_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "nimply_ws" }
   },
   {
     "op" : "add",

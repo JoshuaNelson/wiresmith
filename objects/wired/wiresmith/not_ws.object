@@ -2,7 +2,7 @@
   "objectName" : "not_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<A /'Not'/ gate. Inverts the input on the circuit.>",
+  "description" : "<A /'NOT'/ gate. Inverts the input on the circuit.>",
   "shortdescription" : "NOT Gate",
   "race" : "human",
 

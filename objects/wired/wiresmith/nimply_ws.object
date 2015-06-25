@@ -1,18 +1,18 @@
 {
-  "objectName" : "opamp_ws",
+  "objectName" : "nimply_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<An /'Operational Amplifier'/. Protect your circuits!>",
-  "shortdescription" : "Op-amp",
+  "description" : "<A /'NIMPLY'/ gate. A not imply B. Only is /'on'/ if A and not B.>",
+  "shortdescription" : "NIMPLY Gate",
   "race" : "human",
 
   "category" : "wire",
   "price" : 300,
 
-  "inventoryIcon" : "opamp_ws.png:default.1",
+  "inventoryIcon" : "or_ws.png:default.1",
   "orientations" : [
     {
-      "image" : "opamp_ws.png:<color>.off",
+      "image" : "or_ws.png:<color>.off",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,
@@ -28,13 +28,13 @@
   "animation" : "/objects/wired/logic/logic.animation",
 
   "animationParts" : {
-    "switch" : "opamp_ws.png"
+    "switch" : "or_ws.png"
   },
   "animationPosition" : [-8, 0],
 
-  "inboundNodes" : [ [-1, 0] ],
+  "inboundNodes" : [ [-1, -1], [-1, 0] ],
   "outboundNodes" : [ [0, 0] ],
 
-  "gates" : 1,
-  "truthtable" : [ false, true ]
+  "gates" : 2,
+  "truthtable" : [ [ false, false ], [ true, false ] ]
 }
