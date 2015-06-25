@@ -1,6 +1,5 @@
 function init(args)
   if not virtual then
-    self.drainPos = entity.position()
     if storage.state == nil then
       output(false)
     else
@@ -15,7 +14,6 @@ function output(state)
     storage.state = state
     if state then
       entity.setAnimationState("drainState", "on")
-      pump()
     else
       entity.setAnimationState("drainState", "off")
     end
@@ -24,17 +22,23 @@ end
 
 -- Pumps liquids from input pipes to current position.
 function pump()
-  for pipeEntityId, pipeEntity in pairs(storage.pipe_in) do
+  if storage.inbound == nil then
+    return
+  end
+  for pipeEntityId, pipeEntity in pairs(storage.inbound) do
     local liquid = world.liquidAt(pipeEntity.position)
     if liquid then
       world.destroyLiquid(pipeEntity.position)
-      world.spawnLiquid(entity.position(), liquid[1], 1)
+      world.spawnLiquid(entity.position(), liquid[1], liquid[2])
     end
   end
 end
 
 function update(dt)
-  if not entity.isInboundNodeConnected(0) or entity.getInboundNodeLevel(0) then
+  if entity.getInboundNodeLevel(0) then
+    output(true)
+    pump()
+  elseif entity.isOutboundNodeConnected(0) then
     output(true)
   else
     output(false)
@@ -42,10 +46,10 @@ function update(dt)
 end
 
 function onNodeConnectionChange()
-  storage.pipe_in = { }
-  for pipeId in entity.getInboundNodeIds(1) do
-    if world.entityName(pipeId) == "pipe_in" then
-      storage.pipe_in[pipeId] = { ["position"] = world.entityPosition(pipeId) }
-    end
+  storage.inbound = { }
+  if entity.isInboundNodeConnected(1) then
+    for targetId,val in pairs(entity.getInboundNodeIds(1)) do
+	  storage.inbound[targetId] = { ["position"] = world.entityPosition(targetId) }
+	end
   end
 end

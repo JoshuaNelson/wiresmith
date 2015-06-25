@@ -77,11 +77,6 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "pipe_in" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "pipe_out" }
+    "value" : { "item" : "flow_pipe" }
   }
 ]

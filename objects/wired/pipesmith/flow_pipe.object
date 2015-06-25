@@ -1,9 +1,9 @@
 {
-  "objectName" : "pipe_out",
+  "objectName" : "flow_pipe",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "Gurgle gurgle!",
-  "shortdescription" : "Quick, plug the drain with your shirt.",
+  "description" : "I think I hear something coming!",
+  "shortdescription" : "Flow Pipe",
   "race" : "generic",
 
   "category" : "wire",
@@ -20,8 +20,8 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/pipesmith/pipe_out.lua" ],
-  "scriptDelta" : 5,
+  "scripts" : [ "/objects/wired/pipesmith/pipe.lua" ],
+  "scriptDelta" : 10,
 
   "animation" : "/objects/wired/drain/drain.animation",
 
@@ -30,7 +30,8 @@
   },
   "animationPosition" : [0, 0],
 
-  "inboundNodes" : [ [0, 0] , [1, 0] ],
-
-  "interval" : 5
+  "inboundNodes" : [ [-1, 0] , [0, 1] ],
+  "outboundNodes" : [ [0, 0] ],
+  
+  "interval" : 10
 }
