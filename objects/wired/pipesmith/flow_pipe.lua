@@ -5,10 +5,10 @@ function init(args)
     else
       output(storage.state)
     end
+    updateInboundPipes()
   end
 end
 
--- Change Animation
 function output(state)
   if state ~= storage.state then
     storage.state = state
@@ -22,14 +22,25 @@ end
 
 -- Pumps liquids from input pipe locations to current position.
 function pump()
-  if storage.inbound == nil then
+  if storage.inboundPipes == nil then
     return
   end
-  for targetId, targetEntity in pairs(storage.inbound) do
-    local liquid = world.liquidAt(targetEntity.position)
+  for targetId,targetPos in pairs(storage.inboundPipes) do
+    local liquid = world.liquidAt(targetPos)
     if liquid then
-      world.destroyLiquid(targetEntity.position)
+      world.destroyLiquid(targetPos)
       world.spawnLiquid(entity.position(), liquid[1], liquid[2])
+    end
+  end
+end
+
+function updateInboundPipes()
+  storage.inboundPipes = { }
+  if entity.isInboundNodeConnected(1) then
+    for targetId,val in pairs(entity.getInboundNodeIds(1)) do
+      if world.entityName(targetId) == "flow_pipe" then
+        storage.inboundPipes[targetId] = world.entityPosition(targetId)
+      end
     end
   end
 end
@@ -44,11 +55,5 @@ function update(dt)
 end
 
 function onNodeConnectionChange()
-  storage.inbound = { }
-  if entity.isInboundNodeConnected(1) then
-    for targetId,val in pairs(entity.getInboundNodeIds(1)) do
-      --TODO Check if entity is pipe
-      storage.inbound[targetId] = { ["position"] = world.entityPosition(targetId) }
-    end
-  end
+  updateInboundPipes()
 end
