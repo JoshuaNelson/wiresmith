@@ -2,7 +2,7 @@
   "objectName" : "nand_ws",
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<A /'NAND'/ gate. Requires all inputs to be /'off'/ to work.>",
+  "description" : "<A /'NAND'/ gate. Requires at least one input to be /'off'/ to work.>",
   "shortdescription" : "NAND Gate",
   "race" : "human",
 
@@ -36,5 +36,5 @@
   "outboundNodes" : [ [0, 0] ],
 
   "gates" : 2,
-  "truthtable" : [ [ true, false ], [ false, false ] ]
+  "truthtable" : [ [ true, true ], [ true, false ] ]
 }
