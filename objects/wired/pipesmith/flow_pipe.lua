@@ -5,7 +5,7 @@ function init(args)
     else
       output(storage.state)
     end
-    updateInboundPipes()
+    self.check_inbound = true
   end
 end
 
@@ -20,7 +20,23 @@ function output(state)
   end
 end
 
--- Pumps liquids from input pipe locations to current position.
+function update(dt)
+  if self.check_inbound then
+    self.check_inbound = false
+    updateInboundPipes()
+  end
+  if entity.getInboundNodeLevel(0) then
+    output(true)
+    pump()
+  else
+    output(false)
+  end
+end
+
+function onNodeConnectionChange()
+  self.check_inbound = true
+end
+
 function pump()
   if storage.inboundPipes == nil then
     return
@@ -35,6 +51,7 @@ function pump()
 end
 
 function updateInboundPipes()
+  world.logInfo("Updating inbound pipes")
   storage.inboundPipes = { }
   if entity.isInboundNodeConnected(1) then
     for targetId,val in pairs(entity.getInboundNodeIds(1)) do
@@ -43,17 +60,4 @@ function updateInboundPipes()
       end
     end
   end
-end
-
-function update(dt)
-  if entity.getInboundNodeLevel(0) then
-    output(true)
-    pump()
-  else
-    output(false)
-  end
-end
-
-function onNodeConnectionChange()
-  updateInboundPipes()
 end
