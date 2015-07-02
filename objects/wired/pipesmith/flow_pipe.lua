@@ -51,7 +51,6 @@ function pump()
 end
 
 function updateInboundPipes()
-  world.logInfo("Updating inbound pipes")
   storage.inboundPipes = { }
   if entity.isInboundNodeConnected(1) then
     for targetId,val in pairs(entity.getInboundNodeIds(1)) do
