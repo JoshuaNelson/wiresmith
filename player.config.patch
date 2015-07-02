@@ -112,6 +112,6 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "flow_pipe" }
+    "value" : { "item" : "pump_ws" }
   }
 ]

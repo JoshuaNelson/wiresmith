@@ -1,5 +1,5 @@
 {
-"objectName" : "flow_pipe",
+"objectName" : "pump_ws",
   "printable" : false,
   "rarity" : "Common",
   "description" : "I think I hear something coming!",
@@ -20,7 +20,7 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/pipesmith/flow_pipe.lua" ],
+  "scripts" : [ "/objects/wired/pipesmith/pump_ws.lua" ],
   "scriptDelta" : 10,
 
   "animation" : "/objects/wired/drain/drain.animation",

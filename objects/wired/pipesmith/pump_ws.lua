@@ -54,7 +54,7 @@ function updateInboundPipes()
   storage.inboundPipes = { }
   if entity.isInboundNodeConnected(1) then
     for targetId,val in pairs(entity.getInboundNodeIds(1)) do
-      if world.entityName(targetId) == "flow_pipe" then
+      if world.entityName(targetId) == "pump_ws" then
         storage.inboundPipes[targetId] = world.entityPosition(targetId)
       end
     end
