@@ -107,6 +107,11 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "airlock_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "flow_pipe" }
   }
 ]
