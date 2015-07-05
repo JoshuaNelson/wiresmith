@@ -2,8 +2,8 @@ function init(args)
   self.inputs = enum{
     'sensor_init',
     'sensor_ready',
-    'liquid_low',
     'liquid_high',
+    'liquid_low',
     'inner_door',
     'outer_door'
   }
@@ -15,8 +15,8 @@ function init(args)
   }
   self.airlockStates = enum{
     'idle',
-    'pressurize',
     'ready',
+    'pressurize',
     'open',
     'recover'
   }
@@ -30,10 +30,16 @@ end
 -- Change Animation
 function output(state)
   if state ~= storage.state then
-    if storage.state > self.airlockStates.idle then
-      entity.setAnimationState("switchState", "on")
-    else
-      entity.setAnimationState("switchState", "off")
+    if storage.state == self.airlockStates.idle then
+      entity.setAnimationState("airlockState", "idle")
+    elseif storage.state == self.airlockStates.ready then
+      entity.setAnimationState("airlockState", "ready")
+    elseif storage.state == self.airlockStates.pressurize then
+      entity.setAnimationState("airlockState", "pressurize")
+    elseif storage.state == self.airlockStates.open then
+      entity.setAnimationState("airlockState", "open")
+    elseif storage.state == self.airlockStates.recover then
+      entity.setAnimationState("airlockState", "recover")
     end
   end
 end

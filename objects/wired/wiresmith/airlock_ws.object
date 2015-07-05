@@ -9,11 +9,11 @@
   "category" : "wire",
   "price" : 1200,
 
-  "inventoryIcon" : "and_ws.png:default.1",
+  "inventoryIcon" : "airlock.png:default.idle",
   "orientations" : [
     {
-      "image" : "and_ws.png:<color>.off",
-      "imagePosition" : [-8, 0],
+      "image" : "airlock.png:<color>.off",
+      "imagePosition" : [-16, -8],
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
@@ -25,13 +25,13 @@
   "scripts" : [ "/objects/wired/wiresmith/airlock.lua" ],
   "scriptDelta" : 1,
 
-  "animation" : "/objects/wired/logic/logic.animation",
+  "animation" : "/objects/wired/wiresmith/airlock.animation",
 
   "animationParts" : {
-    "switch" : "and_ws.png"
+    "airlock" : "airlock.png"
   },
-  "animationPosition" : [-8, 0],
+  "animationPosition" : [-16, -8],
 
-  "inboundNodes" : [ [-1, 0], [-1, -1], [-1, -2], [-1, -3], [-1, -4], [-1, -5] ],
-  "outboundNodes" : [ [0, 0], [0, -1], [0, -2], [0, -3] ]
+  "inboundNodes" : [ [-2, 0], [-2, -1], [-1, 0], [-1, -1], [1, 0], [2, 0] ],
+  "outboundNodes" : [ [0, 0], [0, -1], [1, -1], [2, -1] ]
 }

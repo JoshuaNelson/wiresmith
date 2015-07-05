@@ -1,0 +1,20 @@
+{
+  "frameGrid" : {
+    "size" : [40, 16],
+    "dimensions" : [5, 1],
+    "names" : [
+      [
+        "default.off",
+        "default.ready",
+        "default.pressurize",
+        "default.open",
+        "default.recover"
+      ]
+    ]
+  },
+
+  "aliases" : {
+    "default.default" : "default.off",
+    "default.idle" : "default.off"
+  }
+}
