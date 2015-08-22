@@ -20,12 +20,15 @@
   "humanDescription" : "Some mad scientest must use this.",
   "hylotlDescription" : "Rudimentary and yet advanced. Interesting.",
 
-  "lightColor" : [155, 155, 155],
+  "lightColor" : [90, 90, 90],
 
-  "fickerPeriod" : 0.5,
-  "flickerMinIntensity" : 0.75,
-  "flickerMaxIntensity" : 0.85,
-  "fickerPeriodVariance" : 0.075,
+  "pointLight" : true,
+  "pointBeam" : 0.25,
+  
+  "fickerPeriod" : 0.85,
+  "flickerMinIntensity" : 0.85,
+  "flickerMaxIntensity" : 1,
+  "fickerPeriodVariance" : 0.175,
   "flickerIntensityVariance" : 0.025,
 
   "inventoryIcon" : "junkstation_wsicon.png",
@@ -41,7 +44,10 @@
       "flipImages" : true,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+	  
+	  "lightPosition" : [-2,2],
+	  "pointAngle" : 315
     },
     {
       "imageLayers" : [ { "image" : "junkstation_ws.png:<color>.<frame>", "fullbright" : true }, { "image" : "junkstationlit_ws.png:<color>.<frame>" } ],
@@ -54,7 +60,10 @@
       "flipImages" : false,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+	  
+	  "lightPosition" : [1,2],
+	  "pointAngle" : 225
     }
   ]
 }
