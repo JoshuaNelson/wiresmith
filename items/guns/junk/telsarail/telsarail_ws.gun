@@ -1,0 +1,40 @@
+{
+  "itemName" : "telsarail_ws",
+  "inventoryIcon" : "telsarailicon_ws.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "tooltipKind" : "bow",
+  "weaponType" : "Bow",
+
+  "description" : "Energized telsa-type railgun",
+  "shortdescription" : "Telsa Rail",
+  "image" : "telsarail_ws.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "handPosition" : [0, -0.5],
+  "firePosition" : [12, 1.5],
+  "baseDps" : [3, 3],
+  "level" : 3,
+  "fireTime" : 0.65,
+  "inaccuracy" : 0.01,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "reapersurge",
+  "powerProjectileType" : "chargedreapersurge",
+  "powerProjectileTime" : [0.9, 1.1],
+  "projectile" : {
+    "speed" : 115,
+    "speedCurve" : "drawTimeMultiplier",
+    "power" : 3,
+    "powerCurve" : "drawTimeMultiplier",
+    "color" : [220, 10, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/plasmamuzzle3/plasmamuzzle3.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/lightningcoil1.wav" }, { "file" : "/sfx/gun/lightningcoil2.wav" }, { "file" : "/sfx/gun/lightningcoil3.wav" } ]
+  }
+}
