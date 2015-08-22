@@ -3,12 +3,12 @@
   "rarity" : "Uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/junkstation_ws.config",
+    "config" : "/interface/windowconfig/wiringstation.config",
     "filter" : [ "junkstation_ws" ]
   },
   "printable" : false,
-  "description" : "A table used for manufacturing trinkets.",
-  "shortdescription" : "^purple;Table made from junk.^white;",
+  "description" : "A table used for manufacturing doodads.",
+  "shortdescription" : "^purple;Junk Workstation.^white;",
   "race" : "generic",
   "category" : "crafting",
   "price" : 500,
