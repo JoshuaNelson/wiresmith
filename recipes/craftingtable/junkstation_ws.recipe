@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "metalbarrel1", "count" : 2 },
+    { "item" : "copperbar", "count" : 3 },
+    { "item" : "ironbar", "count" : 1 },
+    { "item" : "darkwoodmaterial", "count" : 25 },
+    { "item" : "woodencraftingtable", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "junkstation_ws",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "tools", "all" ]
+}
