@@ -4,16 +4,10 @@
   "frames" : "surge.png",
   "animationCycle" : 0.7,
   "pointLight" : true,
-  "lightColor" : [255, 255, 255],
+  "lightColor" : [163, 119, 174],
   "frameNumber" : 16,
   "damageKindImage" : "surgeicon.png",
   "timeToLive" : 2,
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/surgesmoke/surgesmoke.config"
-    }
-  ],
   "power" : 20,
   "damageKind" : "surge"
 }

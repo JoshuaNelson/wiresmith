@@ -4,17 +4,11 @@
   "frames" : "chargedsurge.png",
   "animationCycle" : 0.7,
   "pointLight" : true,
-  "lightColor" : [255, 255, 255],
+  "lightColor" : [113, 127, 179],
   "frameNumber" : 16,
   "emitters" : [ "electricplasma" ],
   "damageKindImage" : "chargedsurgeicon.png",
   "timeToLive" : 2,
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/surgesmoke/surgesmoke.config"
-    }
-  ],
   "power" : 20,
   "bounces" : 2,
   "piercing" : true,

@@ -24,17 +24,17 @@
 
   "projectileType" : "surge",
   "powerProjectileType" : "chargedsurge",
-  "powerProjectileTime" : [0.7, 1.1],
+  "powerProjectileTime" : [0.7, 1.2],
   "projectile" : {
     "speed" : 115,
     "speedCurve" : "drawTimeMultiplier",
     "power" : 3,
     "powerCurve" : "drawTimeMultiplier",
-    "color" : [220, 10, 10]
+    "color" : [163, 119, 174]
   },
 
   "muzzleEffect" : {
-    "animation" : "/animations/muzzleflash/plasmamuzzle3/plasmamuzzle3.animation",
+    "animation" : "/animations/muzzleflash/plasmamuzzle3pink/plasmamuzzle3pink.animation",
     "fireSound" : [ { "file" : "/sfx/gun/lightningcoil1.wav" }, { "file" : "/sfx/gun/lightningcoil2.wav" }, { "file" : "/sfx/gun/lightningcoil3.wav" } ]
   }
 }
