@@ -22,8 +22,8 @@
   "fireOnRelease" : true,
   "walkWhileFiring" : true,
 
-  "projectileType" : "reapersurge",
-  "powerProjectileType" : "chargedreapersurge",
+  "projectileType" : "surge",
+  "powerProjectileType" : "chargedsurge",
   "powerProjectileTime" : [0.7, 1.1],
   "projectile" : {
     "speed" : 115,
