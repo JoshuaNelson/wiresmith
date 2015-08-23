@@ -11,7 +11,7 @@
   "shortdescription" : "Telsa Rail",
   "image" : "telsarail_ws.png:<frame>",
   "imageFrameSelector" : "bowImageSelector",
-  "handPosition" : [0, -0.5],
+  "handPosition" : [-3, 0],
   "firePosition" : [12, 1.5],
   "baseDps" : [3, 3],
   "level" : 3,
@@ -24,7 +24,7 @@
 
   "projectileType" : "reapersurge",
   "powerProjectileType" : "chargedreapersurge",
-  "powerProjectileTime" : [0.9, 1.1],
+  "powerProjectileTime" : [0.7, 1.1],
   "projectile" : {
     "speed" : 115,
     "speedCurve" : "drawTimeMultiplier",
