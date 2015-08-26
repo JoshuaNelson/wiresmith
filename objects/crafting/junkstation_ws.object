@@ -3,7 +3,16 @@
   "rarity" : "Uncommon",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/wiringstation.config",
+    "config" : "/interface/windowconfig/craftingnocategories.config",
+	"paneLayoutOverride" : {
+	  "windowtitle" : {
+	    "title" : "  JUNK STATION",
+	    "subtitle" : "  For all your junk needs!",
+ 	    "icon" : {
+  	      "file" : "/interfacae/crafting/wiringstation.png"
+		}
+	  }
+	},
     "filter" : [ "junkstation_ws" ]
   },
   "printable" : false,
