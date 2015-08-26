@@ -1,0 +1,46 @@
+{
+  "itemName" : "cycler_ws",
+  "price" : 500,
+  "inventoryIcon" : "cyclericon_ws.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "tooltipKind" : "bow",
+  "weaponType" : "Bow",
+
+  "description" : "Energized Cycling Railgun",
+  "shortdescription" : "ECR",
+  "image" : "cycler_ws.png:<frame>",
+  "imageFrameSelector" : "junkcycleImageSelector",
+  "handPosition" : [-3, 0],
+  "firePosition" : [12, 1.5],
+  "baseDps" : [3, 3],
+  "level" : 3,
+  "fireTime" : 0.65,
+  "inaccuracy" : 0.001,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "surge",
+  "powerProjectileType" : "chargedsurge",
+  "powerProjectileTime" : [3.0, 3.2],
+  "drawSpeedCurve" : "junkcycleTimeMultiplier",
+  "drawPowerCurve" : "junkcycleTimeMultiplier",
+  "projectile" : {
+    "speed" : 115,
+    "power" : 3,
+    "color" : [163, 119, 174]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/plasmamuzzle3pink/plasmamuzzle3pink.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/lightningcoil1.wav" }, { "file" : "/sfx/gun/lightningcoil2.wav" }, { "file" : "/sfx/gun/lightningcoil3.wav" } ]
+  },
+
+  "lightPosition" : [3, 0],
+  "lightColor" : [163, 119, 174],
+  "beamWidth" : 0.1,
+  "ambientfactor" : 0.5
+}
