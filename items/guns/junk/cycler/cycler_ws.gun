@@ -26,7 +26,7 @@
   "projectileType" : "surge",
   "powerProjectileType" : "chargedsurge",
   "powerProjectileTime" : [3.0, 3.2],
-  "drawSpeedCurve" : "junkcycleTimeMultiplier",
+  "drawSpeedCurve" : "junkcycleSpeedTimeMultiplier",
   "drawPowerCurve" : "junkcycleTimeMultiplier",
   "projectile" : {
     "speed" : 115,

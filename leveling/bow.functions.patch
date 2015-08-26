@@ -53,6 +53,16 @@
   },
   {
     "op" : "add",
+    "path" : "/junkcycleSpeedTimeMultiplier",
+    "value" : [
+      "linear",
+      "clamp",
+      [0, 2],
+      [4, 2]
+    ]
+  },
+  {
+    "op" : "add",
     "path" : "/junkcycleImageSelector",
     "value" : [
       "linear",
