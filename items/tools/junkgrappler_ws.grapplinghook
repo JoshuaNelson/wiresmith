@@ -1,5 +1,6 @@
 {
   "itemName" : "junkgrappler_ws",
+  "price" : 1000,
   "inventoryIcon" : "grapplehookicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "rarity" : "Common",
@@ -14,8 +15,8 @@
   "handPosition" : [-2.5, -2.0],
 
   "minLength" : -100,
-  "maxLength" : 125,
-  "hardMaxLength" : 150,
+  "maxLength" : 50,
+  "hardMaxLength" : 60,
   "stretchable" : true,
   "springCoefficient" : 1,
   "baseLineSegLength" : 3,
