@@ -8,8 +8,8 @@
 	  "windowtitle" : {
 	    "title" : "  JUNK STATION",
 	    "subtitle" : "  For all your junk needs!",
- 	    "icon" : {
-  	      "file" : "/interfacae/crafting/wiringstation.png"
+	    "icon" : {
+	      "file" : "/interface/crafting/wiringstation.png"
 		}
 	  }
 	},
