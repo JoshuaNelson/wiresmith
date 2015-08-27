@@ -6,7 +6,7 @@
   "pointLight" : true,
   "lightColor" : [163, 119, 174],
   "frameNumber" : 16,
-  "damageKindImage" : "surgeicon.png",
+  "damageKindImage" : "icon.png",
   "timeToLive" : 2,
   "power" : 20,
   "damageKind" : "surge"

@@ -7,7 +7,7 @@
   "lightColor" : [113, 127, 179],
   "frameNumber" : 16,
   "emitters" : [ "electricplasma" ],
-  "damageKindImage" : "chargedsurgeicon.png",
+  "damageKindImage" : "icon.png",
   "timeToLive" : 2,
   "power" : 20,
   "bounces" : 2,
