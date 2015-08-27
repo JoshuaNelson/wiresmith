@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "metalbarrel1", "count" : 1 },
+    { "item" : "flashlight", "count" : 1 }
+  ],
+  "output" : { "item" : "junklight_ws", "count" : 1 },
+  "groups" : [ "junkstation_ws", "all" ]
+}
