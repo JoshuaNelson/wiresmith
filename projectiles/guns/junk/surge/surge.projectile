@@ -8,6 +8,6 @@
   "frameNumber" : 16,
   "damageKindImage" : "icon.png",
   "timeToLive" : 2,
-  "power" : 20,
+  "power" : 15,
   "damageKind" : "surge"
 }
