@@ -8,26 +8,26 @@
   "description" : "Cret Bloc designed this rifle and it is a favorite among those who desire functionality in their weapons.",
   "shortdescription" : "C-Block 717",
   "image" : "cbloc717.png",
-  "handPosition" : [-7, -2],
-  "firePosition" : [26, 1.5],
-  "recoilTime" : 0.1,
-  "level" : 5,
+  "handPosition" : [-7.5, -0.75],
+  "firePosition" : [10, 1.5],
+  "recoilTime" : 0.03,
+  "level" : 9,
   "tooltipKind" : "gun",
-  "weaponType" : "Rifle",
-  "fireTime" : 1.0,
+  "weaponType" : "Sniper Rifle",
+  "fireTime" : 0.05,
   "inaccuracy" : 0.003,
   "twoHanded" : true,
   "walkWhileFiring" : false,
 
   "projectileType" : "standardbullet",
   "projectile" : {
-    "speed" : 250,
+    "speed" : 300,
     "life" : 3,
-    "power" : 7,
+    "power" : 0.3,
     "color" : [255, 255, 255]
   },
   "muzzleEffect" : {
-    "fireSound" : [ { "file" : "/sfx/gun/sniper2.wav" } ],
-    "animation" : "/animations/muzzleflash/bulletmuzzle4/bulletmuzzle4.animation"
+    "fireSound" : [ { "file" : "/sfx/gun/sniper3.wav" } ],
+    "animation" : "/animations/muzzleflash/blankmuzzle/blankmuzzle.animation"
   }
 }
