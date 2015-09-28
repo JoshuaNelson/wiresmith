@@ -14,10 +14,12 @@
   "orientations" : [
     {
       "image" : "srlatch_ws.png:<color>.off",
-      "imagePosition" : [-8, -8],
+      "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
     }
   ],
 
