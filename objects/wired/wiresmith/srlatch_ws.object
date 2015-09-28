@@ -1,0 +1,42 @@
+{
+  "objectName" : "srlatch_ws",
+  "tags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Switches and stays switched.",
+  "shortdescription" : "SR Latch",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 20,
+
+  "inventoryIcon" : "srlatch_ws.png:default.1",
+  "orientations" : [
+    {
+      "image" : "srlatch_ws.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/persistentswitch.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+
+  "animationParts" : {
+    "switch" : "srlatch_ws.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "interactive" : false,
+  
+  "inboundNodes" : [ [-1, -1], [-1, 0] ],
+  "outboundNodes" : [ [0, 0] ],
+  
+  "interval" : 15
+}
