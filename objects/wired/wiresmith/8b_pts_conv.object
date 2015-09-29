@@ -1,5 +1,5 @@
 {
-  "objectName" : "8-bit Parallel to Serial Converter",
+  "objectName" : "8b_pts_conv",
   "tags" : ["wired", "wiresmith"],
   "printable" : false,
   "rarity" : "Common",
