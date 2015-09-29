@@ -40,10 +40,10 @@
   "fickerPeriodVariance" : 0.175,
   "flickerIntensityVariance" : 0.025,
 
-  "inventoryIcon" : "junkstation_wsicon.png",
+  "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "junkstation_ws.png:<color>.<frame>", "fullbright" : true }, { "image" : "junkstationlit_ws.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "junkstation_ws.png:<color>.<frame>", "fullbright" : true }, { "image" : "junkstation_wslit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-16, 0],
       "frames" : 1,
@@ -59,7 +59,7 @@
 	  "pointAngle" : 315
     },
     {
-      "imageLayers" : [ { "image" : "junkstation_ws.png:<color>.<frame>", "fullbright" : true }, { "image" : "junkstationlit_ws.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "junkstation_ws.png:<color>.<frame>", "fullbright" : true }, { "image" : "junkstation_wslit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-16, 0],
       "frames" : 1,

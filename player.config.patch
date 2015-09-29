@@ -113,35 +113,5 @@
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "pump_ws" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "telsarail_ws" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "cbloc717" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "cycler_ws" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "junklight_ws" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "junkgrappler_ws" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "junkstation_ws" }
   }
 ]

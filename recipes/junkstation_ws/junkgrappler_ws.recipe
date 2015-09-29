@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "metalbarrel1", "count" : 1 },
-    { "item" : "wire", "count" : 20 }
-  ],
-  "output" : { "item" : "junkgrappler_ws", "count" : 1 },
-  "groups" : [ "junkstation_ws", "all" ]
-}
