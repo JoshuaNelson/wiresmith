@@ -7,10 +7,10 @@ function init(args)
     entity.setAllOutboundNodes(storage.state)
     if storage.state then
       entity.setAnimationState("switchState", "on")
-	  entity.setLightColor({self.lightColor[1], self.lightColor[2], self.lightColor[3]})
+      entity.setLightColor({self.lightColor[1], self.lightColor[2], self.lightColor[3]})
     else
       entity.setAnimationState("switchState", "off")
-	  entity.setLightColor({0, 0, 0, 0})
+      entity.setLightColor({0, 0, 0, 0})
     end
   end
   self.gates = entity.configParameter("gates")
@@ -23,11 +23,11 @@ function output(state)
     entity.setAllOutboundNodes(state)
     if state then
       entity.setAnimationState("switchState", "on")
-	  entity.setLightColor({self.lightColor[1], self.lightColor[2], self.lightColor[3]})
+      entity.setLightColor({self.lightColor[1], self.lightColor[2], self.lightColor[3]})
     else
       entity.setAnimationState("switchState", "off")
- 	  entity.setLightColor({0, 0, 0, 0})
-   end
+      entity.setLightColor({0, 0, 0, 0})
+    end
   end
 end
 

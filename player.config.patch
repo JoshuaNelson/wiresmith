@@ -2,7 +2,47 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "4mux" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "4dmux" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "8mux" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "8dmux" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "airlock_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "and_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "buffer_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "dlatch_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "imply_ws" }
   },
   {
     "op" : "add",
@@ -12,7 +52,7 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "dlatch_ws" }
+    "value" : { "item" : "nimply_ws" }
   },
   {
     "op" : "add",
@@ -27,12 +67,12 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "buffer_ws" }
+    "value" : { "item" : "or_ws" }
   },
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "or_ws" }
+    "value" : { "item" : "srlatch_ws" }
   },
   {
     "op" : "add",
@@ -48,16 +88,6 @@
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "xor_ws" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "imply_ws" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "nimply_ws" }
   },
   {
     "op" : "add",
@@ -83,31 +113,6 @@
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "green_led_ws" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "4mux" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "4dmux" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "8mux" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "8dmux" }
-  },
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "airlock_ws" }
   },
   {
     "op" : "add",

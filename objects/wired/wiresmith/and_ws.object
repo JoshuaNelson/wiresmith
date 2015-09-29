@@ -13,7 +13,7 @@
   "orientations" : [
     {
       "image" : "and_ws.png:<color>.off",
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
@@ -22,19 +22,20 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scripts" : [ "/objects/wired/wiresmith/led/led_ws.lua" ],
   "scriptDelta" : 1,
 
-  "animation" : "/objects/wired/logic/logic.animation",
+  "animation" : "/objects/wired/wiresmith/wiresmith.animation",
 
   "animationParts" : {
     "switch" : "and_ws.png"
   },
-  "animationPosition" : [-8, 0],
+  "animationPosition" : [0, 0],
 
   "inboundNodes" : [ [-1, -1], [-1, 0] ],
   "outboundNodes" : [ [0, 0] ],
 
   "gates" : 2,
-  "truthtable" : [ [ false, false ], [ false, true ] ]
+  "truthtable" : [ [ false, false ], [ false, true ] ],
+  "lightColor" : [ 38, 128, 128]
 }
