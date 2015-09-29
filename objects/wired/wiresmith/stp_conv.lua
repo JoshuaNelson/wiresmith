@@ -25,7 +25,7 @@ function output(state)
   end
 end
 
--- For all incoming connections to dmux, if they have data bits (mux), map them
+-- For all incoming connections to converter, if they have data bits, map them
 -- to outbound nodes
 function getParallelData()
   for node=0,self.bits-1 do

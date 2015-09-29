@@ -1,5 +1,6 @@
 {
   "objectName" : "and_ws",
+  "tags" : ["wired", "wiresmith"],
   "printable" : false,
   "rarity" : "Common",
   "description" : "<An /'AND'/ gate. Requires all inputs to be /'on'/ to work.>",

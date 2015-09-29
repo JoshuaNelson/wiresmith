@@ -1,6 +1,6 @@
 {
   "objectName" : "srlatch_ws",
-  "tags" : ["wired"],
+  "tags" : ["wired", "wiresmith"],
   "printable" : false,
   "rarity" : "Common",
   "description" : "Switches and stays switched.",

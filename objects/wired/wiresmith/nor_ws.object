@@ -1,5 +1,6 @@
 {
   "objectName" : "nor_ws",
+  "tags" : ["wired", "wiresmith"],
   "printable" : false,
   "rarity" : "Common",
   "description" : "<An /'NOR'/ gate. Check if neither input is active. Wait... did they just rebrand the NOT gate?>",

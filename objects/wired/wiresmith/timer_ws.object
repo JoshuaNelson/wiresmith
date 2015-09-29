@@ -1,5 +1,6 @@
 {
   "objectName" : "timer_ws",
+  "tags" : ["wired", "wiresmith"],
   "printable" : false,
   "rarity" : "Common",
   "description" : "<A timer. For when you need time to get away.>",

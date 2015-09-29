@@ -2,22 +2,22 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "4mux" }
+    "value" : { "item" : "4b_pts_conv" }
   },
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "4dmux" }
+    "value" : { "item" : "4b_stp_conv" }
   },
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "8mux" }
+    "value" : { "item" : "8b_pts_conv" }
   },
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "8dmux" }
+    "value" : { "item" : "8b_stp_conv" }
   },
   {
     "op" : "add",

@@ -1,5 +1,6 @@
 {
   "objectName" : "xor_ws",
+  "tags" : ["wired", "wiresmith"],
   "printable" : false,
   "rarity" : "Common",
   "description" : "<An /'XOR'/ gate. Requires one input to be on, and one off.>",

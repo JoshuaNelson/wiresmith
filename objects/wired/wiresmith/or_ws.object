@@ -1,5 +1,6 @@
 {
   "objectName" : "or_ws",
+  "tags" : ["wired", "wiresmith"],
   "printable" : false,
   "rarity" : "Common",
   "description" : "<An /'Or'/ gate. Allows you to have multiple individual inputs.>",

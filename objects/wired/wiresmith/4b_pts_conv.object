@@ -1,9 +1,10 @@
 {
-  "objectName" : "8mux",
+  "objectName" : "4-bit Parallel to Serial Converter",
+  "tags" : ["wired", "wiresmith"],
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<An /'8-bit Multiplexer'/. Sends lots of info across a single signal.>",
-  "shortdescription" : "8bit MUX",
+  "description" : "<A 4-bit Parallel to Serial Converter. Sends lots of info across a single signal.>",
+  "shortdescription" : "4bit P/S Converter",
   "race" : "human",
 
   "category" : "wire",
@@ -22,7 +23,7 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/wiresmith/mux.lua" ],
+  "scripts" : [ "/objects/wired/wiresmith/pts_conv.lua" ],
   "scriptDelta" : 1,
 
   "animation" : "/objects/wired/logic/logic.animation",
@@ -32,10 +33,9 @@
   },
   "animationPosition" : [-8, 0],
 
-  "inboundNodes" : [ [-2, 0], [-2, -1], [-2, -2], [-2, -3],
-                     [-1, 0], [-1, -1], [-1, -2], [-1, -3]  ],
+  "inboundNodes" : [ [-1, 0], [-1, -1], [-1, -2], [-1, -3] ],
   "outboundNodes" : [ [0, 0] ],
 
-  "bits" : 8
+  "bits" : 4
 
 }

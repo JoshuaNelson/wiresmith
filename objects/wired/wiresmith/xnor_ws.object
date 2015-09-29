@@ -1,5 +1,6 @@
 {
   "objectName" : "xnor_ws",
+  "tags" : ["wired", "wiresmith"],
   "printable" : false,
   "rarity" : "Common",
   "description" : "<An /'XNOR'/ gate. Both inputs must match.>",

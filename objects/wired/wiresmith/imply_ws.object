@@ -1,5 +1,6 @@
 {
   "objectName" : "imply_ws",
+  "tags" : ["wired", "wiresmith"],
   "printable" : false,
   "rarity" : "Common",
   "description" : "<An /'IMPLY'/ gate. A imply B. Is always /'on'/ unless A and not B.>",
