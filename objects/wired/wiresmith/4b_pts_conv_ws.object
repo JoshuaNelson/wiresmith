@@ -1,10 +1,10 @@
 {
-  "objectName" : "8b_stp_conv",
+  "objectName" : "4b_pts_conv_ws",
   "tags" : ["wired", "wiresmith"],
   "printable" : false,
   "rarity" : "Common",
-  "description" : "<An 8-bit Serial to Parallel Converter. Receives lots of info across a single signal.>",
-  "shortdescription" : "8bit S/P Converter",
+  "description" : "<A 4-bit Parallel to Serial Converter. Sends lots of info across a single signal.>",
+  "shortdescription" : "4bit P/S Converter",
   "race" : "human",
 
   "category" : "wire",
@@ -23,7 +23,7 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/wiresmith/stp_conv.lua" ],
+  "scripts" : [ "/objects/wired/wiresmith/pts_conv.lua" ],
   "scriptDelta" : 1,
 
   "animation" : "/objects/wired/logic/logic.animation",
@@ -33,10 +33,9 @@
   },
   "animationPosition" : [-8, 0],
 
-  "inboundNodes" : [ [-1, 0] ],
-  "outboundNodes" : [ [0, 0], [0, -1], [0, -2], [0, -3],
-                      [1, 0], [1, -1], [1, -2], [1, -3] ],
+  "inboundNodes" : [ [-1, 0], [-1, -1], [-1, -2], [-1, -3] ],
+  "outboundNodes" : [ [0, 0] ],
 
-  "bits" : 8
+  "bits" : 4
 
 }

@@ -2,22 +2,22 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "4b_pts_conv" }
+    "value" : { "item" : "4b_pts_conv_ws" }
   },
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "4b_stp_conv" }
+    "value" : { "item" : "4b_stp_conv_ws" }
   },
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "8b_pts_conv" }
+    "value" : { "item" : "8b_pts_conv_ws" }
   },
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "8b_stp_conv" }
+    "value" : { "item" : "8b_stp_conv_ws" }
   },
   {
     "op" : "add",
