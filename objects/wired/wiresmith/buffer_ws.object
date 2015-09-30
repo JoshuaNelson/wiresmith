@@ -10,10 +10,10 @@
   "category" : "wire",
   "price" : 300,
 
-  "inventoryIcon" : "buffer_ws.png:default.1",
+  "inventoryIcon" : "and_ws.png:default.1",
   "orientations" : [
     {
-      "image" : "buffer_ws.png:<color>.off",
+      "image" : "and_ws.png:<color>.off",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,
@@ -29,7 +29,7 @@
   "animation" : "/objects/wired/logic/logic.animation",
 
   "animationParts" : {
-    "switch" : "buffer_ws.png"
+    "switch" : "and_ws.png"
   },
   "animationPosition" : [-8, 0],
 
