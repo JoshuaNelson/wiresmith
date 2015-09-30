@@ -10,10 +10,10 @@
   "category" : "wire",
   "price" : 300,
 
-  "inventoryIcon" : "and_ws.png:default.1",
+  "inventoryIcon" : "xor_ws.png:default.1",
   "orientations" : [
     {
-      "image" : "and_ws.png:<color>.off",
+      "image" : "xor_ws.png:<color>.off",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,
@@ -29,7 +29,7 @@
   "animation" : "/objects/wired/wiresmith/wiresmith.animation",
 
   "animationParts" : {
-    "switch" : "and_ws.png"
+    "switch" : "xor_ws.png"
   },
   "animationPosition" : [-8, 0],
 
