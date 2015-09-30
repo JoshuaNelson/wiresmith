@@ -26,7 +26,7 @@
   "scripts" : [ "/objects/wired/wiresmith/stp_conv.lua" ],
   "scriptDelta" : 1,
 
-  "animation" : "/objects/wired/logic/logic.animation",
+  "animation" : "/objects/wired/wiresmith/wiresmith.animation",
 
   "animationParts" : {
     "switch" : "and_ws.png"

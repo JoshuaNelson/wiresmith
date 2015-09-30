@@ -18,15 +18,15 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
-	  
-	  "direction" : "right"
+
+      "direction" : "right"
     }
   ],
 
   "scripts" : [ "/objects/wired/logic/timer.lua" ],
   "scriptDelta" : 1,
 
-  "animation" : "/objects/wired/logic/logic.animation",
+  "animation" : "/objects/wired/wiresmith/wiresmith.animation",
 
   "animationParts" : {
     "switch" : "and_ws.png"
