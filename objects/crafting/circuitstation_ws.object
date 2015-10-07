@@ -1,5 +1,5 @@
 {
-  "objectName" : "junkstation_ws",
+  "objectName" : "circuitstation_ws",
   "tags" : ["crafting", "wiresmith"],
   "rarity" : "Uncommon",
   "interactAction" : "OpenCraftingInterface",
@@ -7,18 +7,18 @@
     "config" : "/interface/windowconfig/craftingnocategories.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
-        "title" : "  JUNK STATION",
-        "subtitle" : "  For all your junk needs!",
+        "title" : "  CIRCUIT STATION",
+        "subtitle" : "  Are you qualified for this?",
         "icon" : {
           "file" : "/interface/crafting/wiringstation.png"
         }
       }
     },
-    "filter" : [ "junkstation_ws" ]
+    "filter" : [ "circuitstation_ws" ]
   },
   "printable" : false,
-  "description" : "A table used for manufacturing doodads.",
-  "shortdescription" : "^purple;Junk Workstation.^white;",
+  "description" : "",
+  "shortdescription" : "^purple;Circuit Workstation^white;",
   "race" : "generic",
   "category" : "crafting",
   "price" : 500,
@@ -30,15 +30,10 @@
   "humanDescription" : "Some mad scientest must use this.",
   "hylotlDescription" : "Rudimentary and yet advanced. Interesting.",
 
-  "lightColor" : [150, 150, 150],
-  "pointLight" : true,
-  "pointBeam" : 5.0,
-  "beamAmbience" : 0.5,
-
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "junkstation_ws.png:<color>.<frame>", "fullbright" : true }, { "image" : "junkstation_wslit.png:<color>.<frame>" } ],
+      "image" : "circuitstation_ws.png:<color>.<frame>",
 
       "imagePosition" : [-16, 0],
       "frames" : 1,
@@ -48,13 +43,10 @@
       "flipImages" : true,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-
-      "lightPosition" : [-1,1],
-      "beamAngle" : 315
+      "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "junkstation_ws.png:<color>.<frame>", "fullbright" : true }, { "image" : "junkstation_wslit.png:<color>.<frame>" } ],
+      "image" : "circuitstation_ws.png:<color>.<frame>",
 
       "imagePosition" : [-16, 0],
       "frames" : 1,
@@ -64,9 +56,7 @@
       "flipImages" : false,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "lightPosition" : [0,1],
-      "beamAngle" : 225
+      "anchors" : [ "bottom" ]
     }
   ]
 }

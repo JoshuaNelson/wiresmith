@@ -5,5 +5,5 @@
     { "item" : "steelbar", "count" : 1 }
   ],
   "output" : { "item" : "pump_ws", "count" : 1 },
-  "groups" : [ "junkstation_ws", "all" ]
+  "groups" : [ "circuitstation_ws", "all" ]
 }

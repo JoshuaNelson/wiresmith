@@ -7,7 +7,7 @@
     { "item" : "woodencraftingtable", "count" : 1 }
   ],
   "output" : {
-    "item" : "junkstation_ws",
+    "item" : "circuitstation_ws",
     "count" : 1
   },
   "groups" : [ "craftingtable", "objects", "tools", "all" ]

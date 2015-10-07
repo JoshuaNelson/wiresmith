@@ -2,6 +2,6 @@
   {
     "op" : "add",
     "path" : "/groups/-",
-    "value" : "junkstation_ws"
+    "value" : "circuitstation_ws"
   }
 ]
