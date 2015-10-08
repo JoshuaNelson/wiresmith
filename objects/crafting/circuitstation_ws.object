@@ -30,7 +30,7 @@
   "humanDescription" : "Some mad scientest must use this.",
   "hylotlDescription" : "Rudimentary and yet advanced. Interesting.",
 
-  "inventoryIcon" : "icon.png",
+  "inventoryIcon" : "circuitstationicon_ws.png",
   "orientations" : [
     {
       "image" : "circuitstation_ws.png:<color>.<frame>",
