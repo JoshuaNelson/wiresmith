@@ -42,6 +42,31 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "decoder_2b_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "decoder_3b_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "encoder_2b_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "encoder_3b_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "dlatch_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "imply_ws" }
   },
   {

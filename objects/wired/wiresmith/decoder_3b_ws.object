@@ -1,0 +1,41 @@
+{
+  "objectName" : "decoder_3b_ws",
+  "tags" : ["wired", "wiresmith"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "3-bit Binary Decoder translates 3 bits of binary input to one of eight output channels",
+  "shortdescription" : "3-bit Decoder",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "standardchip_ws.png:default.1",
+  "orientations" : [
+    {
+      "image" : "standardchip_ws.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/wiresmith/decoder.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/wiresmith/wiresmith.animation",
+
+  "animationParts" : {
+    "switch" : "standardchip_ws.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inboundNodes" : [ [-2, 0], [-2, -1], [-2, -2], [-2, -3], [-1, 0], [-1, -1], [-1, -2], [-1, -3] ],
+  "outboundNodes" : [ [0, 0], [0, -1], [0, -2] ],
+
+  "bits" : 3
+
+}

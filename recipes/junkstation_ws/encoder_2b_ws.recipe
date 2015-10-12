@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "laserdiode", "count" : 1 },
+    { "item" : "circuitboard", "count" : 1 }
+  ],
+  "output" : { "item" : "encoder_2b_ws", "count" : 1 },
+  "groups" : [ "circuitstation_ws", "all" ]
+}
