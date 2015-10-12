@@ -3,6 +3,6 @@
     { "item" : "laserdiode", "count" : 1 },
     { "item" : "circuitboard", "count" : 1 }
   ],
-  "output" : { "item" : "8b_pts_conv_ws", "count" : 1 },
+  "output" : { "item" : "stpconv_8b_ws", "count" : 1 },
   "groups" : [ "circuitstation_ws", "all" ]
 }
