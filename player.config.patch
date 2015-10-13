@@ -52,6 +52,16 @@
   {
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "dmux_2b_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "dmux_4b_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "encoder_2b_ws" }
   },
   {
@@ -68,6 +78,16 @@
     "op" : "add",
     "path" : "/defaultBlueprints/tier1/-",
     "value" : { "item" : "imply_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "mux_2b_ws" }
+  },
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "mux_4b_ws" }
   },
   {
     "op" : "add",
